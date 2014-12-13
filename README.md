@@ -8,7 +8,7 @@ Simple Coding Dojo Boilerplate with Jasmine & Gulp.
 
 ## How to use?
 
-Just type `gulp`
+After install dependencies using `npm install`, just type `npm start`
 
 ## Dependencies
 
