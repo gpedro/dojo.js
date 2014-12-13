@@ -1,0 +1,16 @@
+{
+  "name": "dojo.js",
+  "version": "0.0.1",
+  "description": "Boilerplate for Coding Dojo in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gpedro <gpedro831@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "3.8.10",
+    "gulp-jasmine": "1.0.1",
+    "jasmine": "2.1.1"
+  }
+}
