@@ -2,10 +2,10 @@ var gulp = require('gulp'),
  jasmine = require('gulp-jasmine');
 
 gulp.task('test', function () {
-  var tests = 0;
-
+ 
   return gulp.src('spec/**/*.js')
         .pipe(jasmine());
+
 });
 
 gulp.task('watch', function() {
