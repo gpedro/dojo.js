@@ -1,17 +1,20 @@
 {
   "name": "dojo.js",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Boilerplate for Coding Dojo in JavaScript",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node ./node_modules/gulp/bin/gulp.js", 
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ava --watch",
+    "test": "ava"
   },
   "author": "gpedro <gpedro831@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "gulp": "3.8.10",
-    "gulp-jasmine": "1.0.1",
-    "jasmine": "2.1.1"
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.16.0"
+  },
+  "ava": {
+    "files": ["test/**/*.js"],
+    "source": ["src/**/*.js"]
   }
 }

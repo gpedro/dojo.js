@@ -1,4 +1,4 @@
-var dojo = {};
+const dojo = {};
 
 dojo.yo = false;
 
